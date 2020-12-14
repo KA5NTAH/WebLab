@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+
+nav {
+    left : 42.5%;
+    right : 4.1%;
+    position : absolute;
+    float : right;
+}
+
+
+nav a {
+    bottom : 0px;
+    padding-right: 3.3%;
+    text-decoration: none;
+    font-size : 40px;
+    font-family: Constantia;
+    color: rgb(142, 160, 129);
+}
+
+nav a:hover {
+    color : white;
+}
+
+header {
+    height : 4.5%;
+    background: #262626;
+    width : 100%;
+    z-index: 10;
+    position: fixed;
+}
+
+
+.item {
+    font-size: 90px;
+    height : 100%;
+    width : 100%;
+}
+
+#home.item {
+    background-color: yellow;
+}
+
+#about.item {
+    background-color: green;
+}
+
+footer {
+    position : absolute;
+    height : 50%;
+    width : 100%;
+    background-color: rgb(7, 7, 13);
+}
+
+footer h1 {
+    position : absolute;
+    left : 24%;
+    top : 13%;
+    color : rgb(63, 166, 155);
+    font-family : Constantia;
+    font-size:  100pt;
+}
+
+footer p {
+    position : absolute;
+    left : 13%;
+    bottom : 26%;
+    color : rgb(63, 166, 155);
+    font-family : Constantia;
+    font-size : 40pt;
+}
+
+.rm_logo {
+    position : absolute;
+    left: 16.14%;
+    top: 19%;
+}
+
+.rm_logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer_link img {
+    height : 55px;
+    width : auto;
+}
+
+#twitter_logo.footer_link {
+    position : absolute; 
+    left : 13%; 
+    bottom : 8%;
+}
+
+
+#facebook_logo.footer_link {
+    position : absolute;
+    left : 20.3%;
+    bottom : 8%;
+}
+
+
+#insta_logo.footer_link {
+    position : absolute;
+    left : 26%;
+    bottom : 8%;
+}
