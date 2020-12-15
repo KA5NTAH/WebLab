@@ -3,6 +3,11 @@
     padding : 0;
 }
 
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
 nav {
     left : 42.5%;
     right : 4.1%;
@@ -24,28 +29,107 @@ nav a:hover {
     color : white;
 }
 
+/* Header */
 header {
+    position: fixed;
     height : 4.5%;
     background: #262626;
     width : 100%;
-    z-index: 10;
-    position: fixed;
+    z-index: 100;
 }
 
-
 .item {
-    font-size: 90px;
+    position: relative;
     height : 100%;
     width : 100%;
 }
 
+/* Home Page */
 #home.item {
-    background-color: yellow;
+    background-image: url("./content/MainPage.png");
+    font-size: 90px;
 }
 
-#about.item {
-    background-color: green;
+#home.item h1 {
+    position: absolute;
+    color : white;
+    font-size: 150px;
+    left : 2.1%;
+    bottom : 4.2%;
 }
+
+
+/* About Us */
+
+#about.item {
+    background-color: rgb(242, 242, 242);
+}
+
+#about.item h1, h2 {
+    position : absolute;
+    font-family: Constantia;
+    color : rgb(232, 190, 17);
+}
+
+#about.item h1 {
+    top : 10%;
+    left : 10.5%;
+    font-size: 100px;
+}
+
+#about.item h2 {
+    white-space: nowrap;
+    font-size: 100px;
+}
+
+.write_articles {
+    position: absolute;
+    left : 29%;
+    top : 49.5%;
+}
+
+.join {
+    position: absolute;
+    left : 17%;
+    top : 64%;
+}
+
+.enjoy {
+    position: absolute;
+    left : 41%;
+    top : 79%;
+}
+
+.golden_rm_logo {
+    position : absolute;
+    top : 22%;
+    left : 42%;
+}
+
+.golden_rm_logo img {
+    width : 276px;
+    height: auto;
+}
+
+.little_logo img {
+    width : 46px;
+    height: auto;
+}
+
+#top.little_logo {
+    position : absolute;
+    left : 48%;
+    top : 60.5%;
+}
+
+#bot.little_logo {
+    position : absolute;
+    left : 48%;
+    top : 75.5%;
+}
+
+
+/* Footer */
 
 footer {
     position : absolute;
