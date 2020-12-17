@@ -128,7 +128,70 @@ header {
     top : 75.5%;
 }
 
+/* Gallery */
+.image_gallery {  
+    position: relative;
+    width: 90%;
+    height: 80%;  
+    top: 100px;
+    left: 100px;
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap : 10px;
+    grid-template-areas: 
+                    "img-1 img-2 img-3"
+                    "img-4 img-6 img-6"
+                    "img-5 img-6 img-6";
+}
 
+.image_gallery a {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.img-2 {
+    background-position: 10% 10%;
+}
+
+a.img-6 {
+    background-position: 10% 10%;
+}
+
+.img-1 {
+    grid-area: img-1;
+    background-image: url("content/grid_imgs/1.jpg");
+}
+
+.img-2 {
+    grid-area: img-2;
+    background-image: url("content/grid_imgs/2.jpg");
+}
+
+.img-3 {
+    grid-area: img-3;
+    background-image: url("content/grid_imgs/3.jpg");
+}
+.img-4 {
+    grid-area: img-4;
+    background-image: url("content/grid_imgs/4.jpg");
+}
+
+.img-5 {
+    grid-area: img-5;
+    background-image: url("content/grid_imgs/5.jpg");
+}
+
+.img-6 {
+    grid-area: img-6;
+    /* min-height: 40%; */
+    background-image: url("content/grid_imgs/6.jpg");
+}
 /* Footer */
 
 footer {
