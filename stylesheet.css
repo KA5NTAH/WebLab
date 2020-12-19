@@ -33,7 +33,6 @@ nav a:hover {
 header {
     position: fixed;
     height : 4.5%;
-    background: #262626;
     width : 100%;
     z-index: 100;
 }
@@ -512,16 +511,6 @@ a.add_page p {
     float: left;
 }
 
-.v1 {
-    border-left: 6px solid rgb(242, 242, 242);
-    height: 272px;
-    position: absolute;
-    left: 50%;
-    top: 61%;
-    margin-left: -3px;
-}
-
-
 .right_elem {
     position: relative;
     width: 50px;
@@ -552,6 +541,46 @@ button.search_btn {
 button.search_btn img {
     width: 50px;
     height: 50px;
+}
+
+@media screen and (max-width : 1400px) {
+    a.add_page {
+        left: 10%;
+    }
+
+    .search_wrapper {
+        left: 58%;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    .articles_rose {
+        left: 25%;
+    }
+
+    a.add_page {
+        left: 20%;
+    }
+
+    .search_wrapper {
+        left: 20%;
+        bottom: 20%;
+    }
+}
+
+@media screen and (max-width : 700px) {
+
+    .articles_rose {
+        left: 20%;
+    }
+
+    a.add_page {
+        left: 3%;
+    }
+
+    .search_wrapper {
+        left: 3%;
+    }
 }
 
 /* Login Page */
@@ -622,6 +651,27 @@ button.log_btn{
     top : 160px;
 }
 
+@media screen and (max-width : 1700px) {
+    .shinku_img img {
+        opacity: 0%;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .form {
+        width: 430px;
+    }
+
+    button {
+        width: 330px;
+    }
+
+    input {
+        width: 330px;
+    }
+}
+
+
 /* Register page */
 #reg_page.item {
     background-color:  rgb(0, 116, 217);
@@ -629,9 +679,6 @@ button.log_btn{
 
 #reg.form{
     position: absolute;
-    /* top: 440px;
-    left: 100px;  */
-    /* top: 40%; */
     left: 5.2%; 
     bottom: 9.2%;
 }
@@ -655,6 +702,7 @@ input.reg_email {
 button.reg_btn {
     top: 300px;
 }
+
 
 /* Footer */
 
@@ -717,4 +765,39 @@ footer p {
     position : absolute;
     left : 26%;
     bottom : 8%;
+}
+
+@media screen and (max-width : 1200px) {
+    footer h1 {
+        font-size: 80pt;
+        left: 30%;
+        top: 15.5%;
+    }
+    
+    #facebook_logo.footer_link {
+        left : 23%;
+    }
+    
+    #insta_logo.footer_link {
+        left : 31%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    footer h1 {
+        font-size: 40pt;
+        top: 21.5%;
+    }
+
+    .rm_logo {
+        left: 8%;
+    }
+
+    #facebook_logo.footer_link {
+        left : 30%;
+    }
+    
+    #insta_logo.footer_link {
+        left : 42%;
+    }
 }
