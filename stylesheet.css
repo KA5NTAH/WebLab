@@ -148,26 +148,9 @@ header {
 }
 
 
-.outer-div {
-    width: 100%;
-    text-align: center;
-    background-color: #0666a3
-  }
-
-.inner-div {
-    display: inline-block;
-    margin: 0 auto;
-    padding: 3px;
-    background-color: #8ebf42
-}
-
 /* About Us */
-
 #about.item {
     background-color: rgb(242, 242, 242);
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
 #about.item h1, h2 {
@@ -175,47 +158,39 @@ header {
     font-family: Constantia;
     color : rgb(232, 190, 17);
 }
-
 #about.item h1 {
     top : 10%;
+    left : 10.5%;
     font-size: 100px;
 }
-
 #about.item h2 {
     white-space: nowrap;
     font-size: 100px;
 }
-
 .write_articles {
-    display: inline-block;
-    margin: 0 auto;
     position: absolute;
+    left : 29%;
     top : 49.5%;
 }
-
 .join {
     position: absolute;
     left : 17%;
     top : 64%;
 }
-
 .enjoy {
     position: absolute;
     left : 41%;
     top : 79%;
 }
-
 .golden_rm_logo {
     position : absolute;
-    top : 22%;
+    top : 21%;
     left : 42%;
 }
-
 .golden_rm_logo img {
     width : 276px;
     height: auto;
 }
-
 .little_logo img {
     width : 46px;
     height: auto;
@@ -226,7 +201,6 @@ header {
     left : 48%;
     top : 60.5%;
 }
-
 #bot.little_logo {
     position : absolute;
     left : 48%;
@@ -237,39 +211,142 @@ header {
 @media screen and (max-width : 1750px) {
     #about.item h1 {
         font-size: 80px;
+        left : 13%;
     }
     #about.item h2 {
         font-size: 60px;
     }
+    .write_articles {
+        left : 35%;
+    }
+    .join {
+        left : 28%;
+    }
+    .enjoy {
+        left : 43.8%;
+    }
+
+    .golden_rm_logo {
+        top : 19.5%;
+        left : 42%;
+    }
+
+    #top.little_logo {
+        position : absolute;
+        left : 48%;
+        top : 58%;
+    }
+    #bot.little_logo {
+        position : absolute;
+        left : 48%;
+        top : 73%;
+    }
 }
 
-@media screen and (max-width : 1400px) {
+@media screen and (max-width : 1450px) {
     #about.item h1 {
         font-size: 60px;
+        
     }
     #about.item h2 {
         font-size: 40px;
     }
+    .write_articles {
+        left : 40%;
+    }
+    .join {
+        left : 34.5%;
+    }
+    .enjoy {
+        left : 47%;
+    }
+
+    .golden_rm_logo {
+        top : 17.5%;
+        left : 42%;
+    }
+
+    #top.little_logo {
+        position : absolute;
+        left : 50%;
+        top : 57%;
+    }
+    #bot.little_logo {
+        position : absolute;
+        left : 50%;
+        top : 72%;
+    }
 }
 
-@media screen and (max-width : 1040px) {
+@media screen and (max-width : 1105px) {
     #about.item h1 {
         font-size: 40px;
+        left : 23%;
     }
     #about.item h2 {
         font-size: 35px;
-        margin: 0 auto;
+    }
+    .write_articles {
+        left : 37%;
+    }
+    .join {
+        left : 31%;
+    }
+    .enjoy {
+        left : 45%;
+    }
+
+    .golden_rm_logo {
+        top : 17.5%;
+        left : 38%;
+    }
+
+    #top.little_logo {
+        position : absolute;
+        left : 48%;
+        top : 56.5%;
+    }
+    #bot.little_logo {
+        position : absolute;
+        left : 48%;
+        top : 71.5%;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 807px) {
     #about.item h1 {
-        font-size: 25px;
-        margin: 0 auto;
+        font-size: 23px;
+        left: 13%;
     }
     #about.item h2 {
-        font-size: 25px;
+        font-size: 23px;
         margin: 0 auto;
+    }
+
+    .golden_rm_logo img {
+        width : 270px;
+        height: auto;
+    }
+
+    .little_logo img {
+        width : 46px;
+        height: auto;
+    }
+
+    .golden_rm_logo {
+        top : 16.5%;
+        left : 32%;
+    }
+
+    #top.little_logo {
+        position : absolute;
+        left : 47%;
+        top : 55.5%;
+    }
+    #bot.little_logo {
+        position : absolute;
+        left : 47%;
+        top : 70.5%;
     }
 }
 
