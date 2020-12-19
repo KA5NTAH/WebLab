@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding : 0;
 }
@@ -133,8 +133,8 @@ header {
     position: relative;
     width: 90%;
     height: 80%;  
-    top: 100px;
-    left: 100px;
+    top: 9.2%;
+    left: 5.2%;
     display : grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -238,6 +238,108 @@ a.img-6 {
     a.img-5 {
         background-position: 0% 30%;
     }
+}
+
+/* Login Page */
+#login_page.item {
+    background-color:  rgb(0, 116, 217);
+}
+
+.form {
+    position: relative;
+    width : 585px;
+    height : 445px;
+    background-color: rgb(0, 48, 90);
+}
+
+
+#log.form{
+    position: absolute;
+    left: 5.2%; 
+    bottom: 9.2%;
+}
+
+.shinku_img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top : 0;
+    right: 0;
+}
+
+
+.shinku_img img {
+    height: 100%;
+    width: auto;
+}
+
+
+input, button {
+    font-family: Consolas;
+    font-size: 40px;
+}
+
+input {
+    position : absolute;
+    left : 50px;
+    width : 500px;
+    height: 50px;
+}
+
+input.log_usrname {
+    top : 20px;
+}
+
+input.log_pass {
+    top : 90px;
+}
+
+button {
+    color : white;
+    position : absolute;
+    left : 51px;
+    width : 500px;
+    height: 50px;
+    background-color: red;
+    border: none;
+}
+
+button.log_btn{
+    top : 160px;
+}
+
+/* Register page */
+#reg_page.item {
+    background-color:  rgb(0, 116, 217);
+}
+
+#reg.form{
+    position: absolute;
+    /* top: 440px;
+    left: 100px;  */
+    /* top: 40%; */
+    left: 5.2%; 
+    bottom: 9.2%;
+}
+
+input.reg_usrname {
+    top : 20px;
+}
+
+input.reg_pass {
+    top : 90px;
+}
+
+input.reg_conf_pass {
+    top : 160px;
+}
+
+input.reg_email {
+    top : 230px;
+}
+
+button.reg_btn {
+    top: 300px;
 }
 
 /* Footer */
