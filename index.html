@@ -3,19 +3,37 @@
     <meta charset="utf-8">
     <title>RmFandom</title>
     <link rel="stylesheet" href="stylesheet.css">
-
 </head>
 <body>
     <header>
         <nav>
             <!--home about_us gallery articles login register-->
-            <a href="#home">home</a>
-            <a href="#about">about us</a>
-            <a href="#gallery">gallery</a>
-            <a href="#articles">articles</a>
-            <a href="#login_page">login</a>                
-            <a href="#reg_page">register</a>                
+            <ul class="nav-links">
+                <li>
+                    <a href="#home">home</a>        
+                </li>
+                <li>
+                    <a href="#about">about us</a>
+                </li>
+                <li>
+                    <a href="#gallery">gallery</a>
+                </li>
+                <li>
+                    <a href="#articles">articles</a>
+                </li>
+                <li>
+                    <a href="#login_page">login</a>                        
+                </li>
+                <li>
+                    <a href="#reg_page">register</a>
+                </li>
+            </ul>                            
         </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </header>
 
     <!-- Home Page -->
@@ -24,10 +42,11 @@
     </div>
 
     <div id="about" class="item">
+        <h1> WE'RE ROZEN MAIDEN Fandom </h1>       
+
         <div class="golden_rm_logo">
             <img src="/content/Golden_rose.png" alt="">
-        </div>
-        <h1> WE'RE ROZEN MAIDEN Fandom </h1>        
+        </div> 
 
         <div class="write_articles">
             <h2> WRITE ARTICLES </h2>            
@@ -74,21 +93,23 @@
         <div class="articles_rose">
             <img src="content/white_rose.png" alt="">
         </div>
-        <a class="add_page" href="#">
-             <p> Add new page </p> 
-        </a>        
 
-        <div class="search_wrapper">
-            <div class="left_elem">
-                <input class="search" type="text" placeholder="Search" name="search" required>
-            </div>
-            <div class="right_elem">
-                <button class="search_btn" type="submit">
-                    <img src="content/search_loop.png" alt="">
-                </button>
-            </div>
+        <div class="fields">
+            <a class="add_page" href="#">
+                <p> Add new page </p> 
+           </a>        
+   
+           <div class="search_wrapper">
+               <div class="left_elem">
+                   <input class="search" type="text" placeholder="Search" name="search" required>
+               </div>
+               <div class="right_elem">
+                   <button class="search_btn" type="submit">
+                       <img src="content/search_loop.png" alt="">
+                   </button>
+               </div>
+           </div>
         </div>
-
     </div>
 
 
@@ -144,5 +165,5 @@
             </a>
         </div>        
     </footer>
-
+    <script src="script.js"></script>
 </body>
